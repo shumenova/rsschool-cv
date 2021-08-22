@@ -10,6 +10,11 @@
 ### Major: Automation and Control 
 ### Academic mobility, ADA University  01/2018 - 06/2018
 ### Major: Computer Engineering 
+## SKILLS 
+### Knowledge of HTML5, CSS and JavaScript 
+### A passion for the web
+### An ability to work autonomously 
+### Experience with git version 
 ## CONTACTS 
 ### email: sshumenova@gmail.com
 ### tel: +7 707 747 02 50
