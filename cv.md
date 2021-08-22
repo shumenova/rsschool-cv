@@ -1,7 +1,12 @@
 # Shumenova Slushash
 
 ## WORK EXPERIENCE 
-### RPA developer, Deloitte   09/2019/ -06/2020
+### RPA developer, Deloitte   09/2019/ - 06/2020
 #### Improving business by automating routine tasks 
 ### Helpdesk, Asia - Soft     10/2020 - 06/2021
 #### Perform remote troubleshooting through diagnostic techniques
+## EDUCATION 
+### Kazakh-British Technical University  08/2015 - 06/2019
+### Major: Automation and Control 
+### Academic mobility, ADA University  01/2018 - 06/2018
+### Major: Computer Engineering 
