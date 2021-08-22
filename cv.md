@@ -10,3 +10,7 @@
 ### Major: Automation and Control 
 ### Academic mobility, ADA University  01/2018 - 06/2018
 ### Major: Computer Engineering 
+## CONTACTS 
+### email: sshumenova@gmail.com
+### tel: +7 707 747 02 50
+### location: Nur-Sultan, Kazakhstan 
