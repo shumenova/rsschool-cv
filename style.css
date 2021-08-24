@@ -1,9 +1,14 @@
-body {
-    background: #FFFEFD;
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    background-color: #FFFEFD;
 }
 
 .container {
@@ -11,8 +16,8 @@ body {
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
-    background: #fff;
     margin: 50px;
+    background: #fff;
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
@@ -28,3 +33,243 @@ body {
     background:#fff;
     padding: 40px;
 }
+
+.basic-information {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.basic-information .avatar {
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+.basic-information .avatar img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+}
+
+.basic-information h2 {
+    color: #000;
+    font-size: 25px;
+    font-family: Optima;
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.basic-information h2 span {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.basic-information h2 ::after {
+    content: "";
+    display: block;
+    width: 250px;
+    height: 1px;
+    background:#000;
+    left: 0;
+    top: 82%;
+    position: absolute;
+
+}
+
+.contact {
+    padding-top: 20px;
+}
+.contact ul {
+    position: relative;
+}
+
+.contact ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contact ul li .data-contact {
+    font-size: 17px;
+    color: #000;
+}
+
+.contact .text-contact {
+    font-family: "Optima";
+    color: #000;
+    text-decoration-line: none;
+    padding-left: 2px;
+}
+
+.profile .profile-description {
+    color: #000;
+    font-size: 17px;
+    font-family: "Optima";
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.work-experience {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-bottom: 20px;
+}
+
+.title { 
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Optima";
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.work-experience .job-name {
+    
+    color: #000;
+    font-weight: bold;
+    font-family: "Optima";
+    font-size: 20px;
+    text-align: left;
+    margin-left: 80px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+
+}
+.work-experience #job-information {
+    text-align: left;
+}
+
+#job-company, #job-period {
+    display: inline-block;
+}
+ .company {
+    color: #000;
+    font-family: "Optima";
+    font-size: 20px;
+    margin-left: 80px;
+    margin-right: 0;
+}
+
+.work-experience .job-period {
+    color: #000;
+    font-family: "Optima";
+    font-size: 20px;
+    float: right;
+    margin: 0;
+}
+
+ .block-description{
+    color: #000;
+    font-family: Optima;
+    font-size: 20px;
+    float: left;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+.education {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-bottom: 20px;
+}
+
+.education .degree {
+    color: #000;
+    font-size: 20px;
+    font-family: "Optima";
+    float: left;
+    font-weight: bold;
+    margin-left: 80px ;
+    margin-top: 10px;
+}
+
+.education .degree-info{
+    text-align: left;
+}
+
+#university, #uni-period {
+    display: inline-block;
+}
+
+.education #university {
+    color: #000;
+    font-family: "Optima";
+    font-size: 20px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.education #uni-period {
+    color: #000;
+    font-family: "Optima";
+    font-size: 20px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 0px;
+
+}
+.skills {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-bottom: 20px;
+}
+ .code-example {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-bottom: 20px;
+}
+.footer-info { 
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    
+}
+
+.footer-git { 
+    color: #000;
+    text-decoration: none;
+}
+
+.git-logo {
+    margin: 10px;
+    font-size: 25px;
+    font-family: "Optima";
+}
+.footer-year {
+    position: relative;
+    text-align: center;
+    margin: 10px;
+    font-size: 25px;
+    font-family: "Optima";
+} 
+
+.footer-rsschool {
+    position: relative;
+    max-width: 50px;
+}
+
+
+

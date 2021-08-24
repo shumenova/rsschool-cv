@@ -5,14 +5,131 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Shumenova Slushash</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="left-side">
-            
+    <div class="wrapper">
+        <div class="container">
+            <div class="left-side">
+                <section class="basic-information">
+                    <img class="avatar" src="images/avatar_Shumenova.PNG" alt="Shumenova Slushash avatar">
+                    <h2>SHUMENOVA<br>SLUSHASH<br><span>Junior Front-end developer</span></h2>
+                </section>
+                <section class="contact">
+                    <h3 class="title">Contact</h3>
+                    <ul class="list-contact">
+                        <li>
+                        <div class="data-contact"><i class="fa fa-phone" aria-hidden="true"></i>
+                            <a href="tel:+770774702250" class="text-contact">+77077470250</a>
+                        </div>
+                        </li>
+                        <li>
+                            <div class="data-contact"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                <a href="malito:sshumenova@gmail.com" class="text-contact" >sshumenova@gmail.com</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-contact"><i class="fa fa-github" aria-hidden="true"></i>
+                              <a href="https://github.com/shumenova" class="text-contact">github.com/shumenova</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-contact"><i class="fa fa-telegram" aria-hidden="true"></i>
+                                <a href="https://t.me/shumenova" class="text-contact">t.me/shumenova</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-contact"><i class="fa fa-linkedin" aria-hidden="true"></i>
+                                <a href="https://www.linkedin.com/in/sshumenova/" class="text-contact">linkedin/sshumenova</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="data-contact"><i class="fa fa-globe" aria-hidden="true"></i>
+                                <span class="text-contact">Nur-Sultan, Kazakhstan</span>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="profile">
+                    <h3 class="title">Profile</h3>
+                    <p class="profile-description">A junior front-end developer with passion for web design ready to accept challenges! </p>
+                </section>
+            </div>
+            <div class="right-side">
+                <section class="work-experience">
+                    <h3 class="title">Work experience</h3>
+                    <div class="job">
+                        <h4 class="job-name">Help desk techician</h4>
+                        <div id="job-information">
+                            <id class="company">Asia-Soft</id>
+                            <id class="job-period">10/2020-06/2021</id>
+                            <ul class="block-description">
+                                <li>Perform remote troubleshooting</li>
+                                <li>Walk the customer through the problem-solving process</li>
+                                <li>Determine the best solution based on the issue and details provided by customers</li>
+                            </ul>
+                        </div>
+                        <h4 class="job-name">RPA developer</h4>
+                        <div id="job-information">
+                            <id class="company">Deloitte</id>
+                            <id class="job-period">09/2019-06/2020</id>
+                            <ul class="block-description">
+                                <li>Improving business processes by automating routine tasks</li>
+                                <li>Ability to visualize abstract language concepts into slides</li>
+                                <li>Completed UiPath courses</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="education">
+                    <h3 class="title">Education</h3>
+                    <div class="degree">Bachelor of Engineering and Technology</div>
+                    <div id="degree-info">
+                    <div id="university">Kazakh-British Technical University</div>
+                    <div id="uni-period">08/2015-06/2019</div>
+                    </div>
+                    <div class="degree">Bachelor of Engineering and Technology</div>
+                    <div id="degree-info">
+                    <div id="university">ADA University</div>
+                    <div id="uni-period">01/2018-06/2018</div>
+                    </div>
+                </section>
+                <section class="skills">
+                    <h3 class="title">Skills</h3>
+                        <ul class="block-description">
+                            <li>HTML5, CSS3 & JavaScript</li>
+                            <li>Proficient understanding of code versioning tools (Git)</li>
+                            <li>Validation, Debugging and Testing</li>
+                            <li>English: B2</li>
+                        </ul>
+                </section>
+                <section class="code-example">
+                    <h3 class="title">Code example</h3>
+                    <details>
+                        <summary class="company">Codebasics</summary>
+                        <pre>
+                            Convert number to reversed array of digits
+    
+                            function digitize(n) {
+                            var myArr = String(n).split("").reverse().map((n)=>{
+                            return Number(n)}) 
+                            return myArr;    
+                          }
+                        </pre>
+                    </details>
+                </section>
+            </div>
         </div>
-        <div class="right-side"></div>
+        <footer class="footer-info">
+            <div class="git-logo"><i class="fa fa-github" aria-hidden="true"></i>
+            <a class="footer-git" href="https://github.com/shumenova">GitHub</a>
+            </div>
+            <p class="footer-year">2021</p>
+            <a class="footer-rsschool" href="https://rs.school/js/"> 
+                <img src="images/rs_school_logo.svg" width="100" height="40" alt="rs school">
+            </a>
+        </footer>
     </div>
 </body>
 </html>
