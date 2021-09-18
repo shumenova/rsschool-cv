@@ -5,131 +5,253 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Shumenova Slushash</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/languages/go.min.js"></script>
+
+    <script>hljs.highlightAll();</script>
+
 </head>
 <body>
-    <div class="wrapper">
-        <div class="container">
-            <div class="left-side">
-                <section class="basic-information">
-                    <img class="avatar" src="images/avatar_Shumenova.PNG" alt="Shumenova Slushash avatar">
-                    <h2>SHUMENOVA<br>SLUSHASH<br><span>Junior Front-end developer</span></h2>
-                </section>
-                <section class="contact">
-                    <h3 class="title">Contact</h3>
+<div class="wrapper" id="wrapper">
+    <div class="mobile-content" id="mobile-content">
+        <div class="mobile-container">
+            <div class="menu-icon">
+                <button class="mobile-button" onclick="togglemenu()">
+                    <span>
+                    </span>
+                </button>
+            </div>
+            <div class="mobile-media" id="mobile-media">
+                <div class="mobile-logo"></div>
+                <h2 class="mobile-title">Shumenova<br>Slushash</h2>
+            </div>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="header-content" id="header-content">
+            <div class="site-logo"></div>
+            <h2 class="site-title">Slushash<br>Shumenova</h2>
+            <ul class="navbar">
+                <li class="navbar-item"><a class="navbar-link" href="#home">Home</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="#experience">Experience</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="#skills">Skills</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="#works">Works</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="#code-example">Code example</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="#video">Video</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="#languages">Languages</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="#contacts">Contacts</a></li>
+            </ul>   
+            <div class="footer-content" id="footer-content">
+                <div class="footer-component">
+                    <ul class="social-links"> 
+                        <li class="social-item">
+                            <a href="https://github.com/shumenova"><ion-icon class="footer-ico" name="logo-github"></ion-icon></a>
+                        </li>
+                        <li class="social-item">
+                            <a href="https://t.me/shumenova"><ion-icon class="footer-ico" name="navigate-circle-outline"></ion-icon></a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-school" href="https://rs.school/js/"></a>
+                        </li>
+                    </ul>    
+                </div>
+                <p class="footer-year">2021</p>           
+            </div>
+       </div>
+    </header>
+    
+    <main>
+        <div class="main-wrapper" id="main-wrapper">
+            <section class="home" id="home">
+                <div class="welcome-title">
+                    <h2 class="welcome-word">Hello,</h2>
+                    <div class="welcome-space"></div>
+                    <p class="welcome-text">I am Slushash Shumenova, Junior Front-end developer from Nur-Sultan, Kazakhstan. I am ready to accept new challenges and happy to learn new things everyday!</p>
+                </div>
+            </section>
+            <section class="experience">
+                <div class="work-experience" id="experience">
+                    <h2 class="title-name">Experience</h2>
+                    <div class="timeline">
+                        <div class="timeline-container">
+                            <div class="content">
+                                <span class="time">08/2021 - Present</span>
+                                <h4 class="title">Rolling Scope School</h4>
+                                <p>The course for Front-end developer</p>
+                            </div>
+                        </div>
+                        <div class="timeline-container">
+                            <div class="content">
+                                <span class="time">10/2020 - 06/2021</span>
+                                <h4 class="title">Help desk technician, Asia-Soft</h4>
+                                <p>Determine the best solution based on the issue and details provided by customers</p>
+                            </div>
+                        </div>
+                        <div class="timeline-container">
+                            <div class="content">
+                                <span class="time">09/2019 - 06/2020</span>
+                                <h4 class="title">RPA developer, Deloitte</h4>
+                                <p>Improving business processes by automating routine tasks</p>
+                            </div>
+                        </div>
+                        <div class="timeline-container">
+                            <div class="content">
+                                <span class="time">08/2015 - 06/2018</span>
+                                <h4 class="title">Bachelor's Degree, KBTU</h4>
+                                <p>Bachelor of Engineering and Technology</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="skills">
+                <div class="skills-content" id="skills">
+                    <h2 class="title-name">Skills</h2>
+                </div>
+                    <ul class="skills-container">
+                        <li class="skill-row"><ion-icon class="skills-icon" name="logo-html5"></ion-icon>HTML, CSS</li>
+                        <li class="skill-row"><ion-icon class="skills-icon" name="logo-nodejs"></ion-icon>Javascript</li>
+                        <li class="skill-row"><ion-icon class="skills-icon" name="logo-figma"></ion-icon>Figma</li>
+                    </ul>
+            </section>
+            <section class="works">
+                <div class="works-content" id="works">
+                    <h2 class="title-name">Works</h2>
+                </div>
+                <div class="works-container">
+                    <div class="portfolio-items">
+                        <a href="#">
+                        <div class="details">
+                            <img  class="project-image" src="images/museum1.jpg" alt="project-photo">
+                            <div class="image-overlay image-overlay-blur">
+                                <h5 class="image-title">Louvre museum</h5>
+                                <p class="image-description">
+                                    A landing page of Louvre museum. 
+                                    Developed with CSS flexbox and Javascript.
+                                </p>
+                            </div>                            
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="code-example">
+                <div class="code-content" id="code-example">
+                    <h2 class="title-name">Code example</h2>
+                </div>
+                <div class="code-container">
+                    <pre class="pre">
+                        <code >
+                            function solution(number){
+                                let arr = [];
+                              
+                                  let sum = 0;
+                                  for (let i = 1; i &lt; number; i++ ){
+                                    arr.push(i);
+                                  }
+                                    for (let j = 0; j &lt; number; j++) {
+                                      if((arr[j] % 3 === 0) || (arr[j] % 5 === 0)) {
+                                     sum = arr[j] + sum;
+                                     }
+                                  }
+                                return sum;
+                              }
+                        </code>
+                    </pre>
+                </div>
+            </section>
+            <section class="video">
+                <div class="video-content" id="video">
+                    <h2 class="title-name">Video-presentation</h2>
+                </div>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NXYoRbFCUPY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+            </section>
+            <section class="languages">
+                <div class="languages-content" id="languages">
+                    <h2 class="title-name">Languages</h2>
+                </div>
+                <div class="skills-languages">
+                    <ul class="skills-bar">
+                        <li class="bar">
+                            <div class="info">
+                                <span>English</span>
+                            </div>
+                            <div class="progress-line en"><span></span></div>
+                        </li>
+                        <li class="bar">
+                            <div class="info">
+                                <span>Russian</span>
+                            </div>
+                            <div class="progress-line rus"><span></span></div>
+                        </li>
+                        <li class="bar">
+                            <div class="info">
+                                <span>Kazakh</span>
+                            </div>
+                            <div class="progress-line kz"><span></span></div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="contacts">
+                <div class="contacts-content" id="contacts">
+                    <h2 class="title-name">Contacts</h2>
+                </div>
+                <div class="contacts-container">
                     <ul class="list-contact">
                         <li>
-                        <div class="data-contact"><i class="fa fa-phone" aria-hidden="true"></i>
+                        <div class="data-contact"><ion-icon class="skills-icon" name="call-outline"></ion-icon><br>
+                            <h4 class="title-contact">Telephone</h4>
                             <a href="tel:+770774702250" class="text-contact">+77077470250</a>
                         </div>
                         </li>
                         <li>
-                            <div class="data-contact"><i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                <a href="malito:sshumenova@gmail.com" class="text-contact" >sshumenova@gmail.com</a>
+                            <div class="data-contact"><ion-icon class="skills-icon" name="mail-outline"></ion-icon><br>
+                                <h4 class="title-contact">Email</h4>
+                                <a href="mailto:sshumenova@gmail.com" class="text-contact" >sshumenova@gmail.com</a>
                             </div>
                         </li>
                         <li>
-                            <div class="data-contact"><i class="fa fa-github" aria-hidden="true"></i>
-                              <a href="https://github.com/shumenova" class="text-contact">github.com/shumenova</a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="data-contact"><i class="fa fa-telegram" aria-hidden="true"></i>
-                                <a href="https://t.me/shumenova" class="text-contact">t.me/shumenova</a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="data-contact"><i class="fa fa-linkedin" aria-hidden="true"></i>
-                                <a href="https://www.linkedin.com/in/sshumenova/" class="text-contact">linkedin/sshumenova</a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="data-contact"><i class="fa fa-globe" aria-hidden="true"></i>
-                                <span class="text-contact">Nur-Sultan, Kazakhstan</span>
+                            <div class="data-contact"><ion-icon class="skills-icon" name="logo-linkedin"></ion-icon><br>
+                                <h4 class="title-contact">Linkedin</h4>
+                                <a href="https://www.linkedin.com/in/sshumenova/" class="text-contact">sshumenova</a>
                             </div>
                         </li>
                     </ul>
-                </section>
-                <section class="profile">
-                    <h3 class="title">Profile</h3>
-                    <p class="profile-description">A junior front-end developer with passion for web design ready to accept challenges! </p>
-                </section>
-            </div>
-            <div class="right-side">
-                <section class="work-experience">
-                    <h3 class="title">Work experience</h3>
-                    <div class="job">
-                        <h4 class="job-name">Help desk techician</h4>
-                        <div id="job-information">
-                            <id class="company">Asia-Soft</id>
-                            <id class="job-period">10/2020-06/2021</id>
-                            <ul class="block-description">
-                                <li>Perform remote troubleshooting</li>
-                                <li>Walk the customer through the problem-solving process</li>
-                                <li>Determine the best solution based on the issue and details provided by customers</li>
-                            </ul>
-                        </div>
-                        <h4 class="job-name">RPA developer</h4>
-                        <div id="job-information">
-                            <id class="company">Deloitte</id>
-                            <id class="job-period">09/2019-06/2020</id>
-                            <ul class="block-description">
-                                <li>Improving business processes by automating routine tasks</li>
-                                <li>Ability to visualize abstract language concepts into slides</li>
-                                <li>Completed UiPath courses</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                <section class="education">
-                    <h3 class="title">Education</h3>
-                    <div class="degree">Bachelor of Engineering and Technology</div>
-                    <div id="degree-info">
-                    <div id="university">Kazakh-British Technical University</div>
-                    <div id="uni-period">08/2015-06/2019</div>
-                    </div>
-                    <div class="degree">Bachelor of Engineering and Technology</div>
-                    <div id="degree-info">
-                    <div id="university">ADA University</div>
-                    <div id="uni-period">01/2018-06/2018</div>
-                    </div>
-                </section>
-                <section class="skills">
-                    <h3 class="title">Skills</h3>
-                        <ul class="block-description">
-                            <li>HTML5, CSS3 & JavaScript</li>
-                            <li>Proficient understanding of code versioning tools (Git)</li>
-                            <li>Validation, Debugging and Testing</li>
-                            <li>English: B2</li>
-                        </ul>
-                </section>
-                <section class="code-example">
-                    <h3 class="title">Code example</h3>
-                    <details>
-                        <summary class="company">Codebasics</summary>
-                        <pre>
-                            Convert number to reversed array of digits
-    
-                            function digitize(n) {
-                            var myArr = String(n).split("").reverse().map((n)=>{
-                            return Number(n)}) 
-                            return myArr;    
-                          }
-                        </pre>
-                    </details>
-                </section>
-            </div>
+                </div>
+            </section>
         </div>
-        <footer class="footer-info">
-            <div class="git-logo"><i class="fa fa-github" aria-hidden="true"></i>
-            <a class="footer-git" href="https://github.com/shumenova">GitHub</a>
-            </div>
-            <p class="footer-year">2021</p>
-            <a class="footer-rsschool" href="https://rs.school/js/"> 
-                <img src="images/rs_school_logo.svg" width="100" height="40" alt="rs school">
-            </a>
-        </footer>
-    </div>
+    </main>
+    
+      
+
+    
+</div>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script type="text/javascript">
+    function togglemenu() {
+        document.getElementById("header-content").classList.toggle('active');
+        document.getElementById("main-wrapper").classList.toggle('active');
+        document.getElementById("mobile-content").classList.toggle('active');
+        document.getElementById("mobile-media").classList.toggle('active');
+        document.getElementById("footer-content").classList.toggle('active');
+        document.getElementById("wrapper").classList.toggle('active');
+    }
+</script>
+
+
+
 </body>
 </html>
